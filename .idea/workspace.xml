@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e357251e-6a11-4ac6-932a-c3ad6a7de54c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/ai.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/components/fighter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/death_functions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/game_messages.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/fighter.py" afterPath="$PROJECT_DIR$/components/fighter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/death_functions.py" afterPath="$PROJECT_DIR$/death_functions.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine.py" afterPath="$PROJECT_DIR$/engine.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/entity.py" afterPath="$PROJECT_DIR$/entity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game_states.py" afterPath="$PROJECT_DIR$/game_states.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/input_handlers.py" afterPath="$PROJECT_DIR$/input_handlers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map_objects/game_map.py" afterPath="$PROJECT_DIR$/map_objects/game_map.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/render_functions.py" afterPath="$PROJECT_DIR$/render_functions.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +17,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PythonRL$engine.coverage" NAME="engine Coverage Results" MODIFIED="1541282483559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonRL$engine.coverage" NAME="engine Coverage Results" MODIFIED="1541284663927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="engine.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="engine.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/engine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="233">
+              <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -38,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="death_functions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_messages.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game_messages.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="death_functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/death_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="16" column="93" lean-forward="false" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -53,8 +60,8 @@
       <file leaf-file-name="render_functions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/render_functions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="31" column="84" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="78" />
+            <state relative-caret-position="1139">
+              <caret line="79" column="64" lean-forward="true" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -65,9 +72,11 @@
       <file leaf-file-name="fighter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/fighter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="284">
+              <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,12 +157,13 @@
         <option value="$PROJECT_DIR$/input_handlers.py" />
         <option value="$PROJECT_DIR$/components/ai.py" />
         <option value="$PROJECT_DIR$/game_states.py" />
-        <option value="$PROJECT_DIR$/components/fighter.py" />
         <option value="$PROJECT_DIR$/entity.py" />
         <option value="$PROJECT_DIR$/map_objects/game_map.py" />
+        <option value="$PROJECT_DIR$/death_functions.py" />
+        <option value="$PROJECT_DIR$/components/fighter.py" />
+        <option value="$PROJECT_DIR$/game_messages.py" />
         <option value="$PROJECT_DIR$/render_functions.py" />
         <option value="$PROJECT_DIR$/engine.py" />
-        <option value="$PROJECT_DIR$/death_functions.py" />
       </list>
     </option>
   </component>
@@ -481,14 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/fighter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="48" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map_objects/game_map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
@@ -509,10 +511,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/death_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="93" lean-forward="false" selection-start-line="16" selection-start-column="93" selection-end-line="16" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/fighter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_messages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/render_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="31" column="84" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="78" />
+        <state relative-caret-position="1139">
+          <caret line="79" column="64" lean-forward="true" selection-start-line="79" selection-start-column="64" selection-end-line="79" selection-end-column="64" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
@@ -521,18 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/death_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="233">
+          <caret line="81" column="20" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
