@@ -14,3 +14,5 @@ def heal(*args, **kwargs):
     else:
         entity.fighter.heal(amount)
         results.append({'consumed': True, 'message': Message('Your wounds start to feel better!', libtcod.green)})
+
+    return results

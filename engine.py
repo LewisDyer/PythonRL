@@ -130,7 +130,6 @@ def main():
                 message_log.add_message(Message('There is nothing here to pick up', libtcod.yellow))
 
         if show_inventory:
-            print(player.inventory.owner)
             previous_game_state = game_state
             game_state = GameStates.SHOW_INVENTORY
 
