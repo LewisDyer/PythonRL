@@ -42,7 +42,7 @@ def cast_lightning(*args, **kwargs):
 
     if target:
         results.append({'consumed': True, 'target': target,
-                        'message': Message('A lightning bolt strikes {0} with a loud thunder! '
+                        'message': Message('A lightning bolt strikes {0} with a tremor! '
                                            'The enemy takes {1} damage'.format(target.name, damage), libtcod.white)})
         results.extend(target.fighter.take_damage(damage))
     else:
@@ -73,7 +73,7 @@ def cast_fireball(*args, **kwargs):
     for entity in entities:
         if entity.distance(target_x, target_y) <= radius and entity.fighter:
             results.append({'message': Message('The {0} is burned for '
-                                               '{1} points of damage!'.format(entity.name, damage), libtcod.orange)})
+                                               '{1} damage!'.format(entity.name, damage), libtcod.orange)})
             results.extend(entity.fighter.take_damage(damage))
 
     return results
@@ -100,7 +100,7 @@ def cast_confuse(*args, **kwargs):
             entity.ai = confused_ai
 
             results.append({'consumed': True,
-                            'message': Message('The eyes of the {0} look vacant as it starts '
+                            'message': Message('The eyes of the {0} cloud as it starts '
                                                'to stumble around!'.format(entity.name), libtcod.light_green)})
             break
     else:

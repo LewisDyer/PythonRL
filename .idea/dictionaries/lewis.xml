@@ -2,6 +2,7 @@
   <dictionary name="lewis">
     <words>
       <w>fullscreen</w>
+      <w>savegame</w>
     </words>
   </dictionary>
 </component>
